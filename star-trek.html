@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Copyright 2025 Shane O'Connell -->
+<html><head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>animorph90.shaneoc.net</title>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    background: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:link {
+    color: #00ff00;
+}
+
+a:visited {
+    color: #00ff00;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: #00ff00;
+}
+
+#main {
+    width: clamp(50ch, 50%, 80ch);
+    max-width: 100%;
+}
+
+h1, h2 {
+    color: #00ff00;
+}
+
+.monospace {
+    font-family: monospace;
+    font-weight: bold;
+}
+</style>
+<script>
+if (document.location.href.startsWith('file:')) {
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const index_links = document.getElementsByClassName('index-link');
+        for (let i = 0; i < index_links.length; i++) {
+            index_links[i].href += 'index.html';
+        }
+    });
+}
+</script>
+</head><body><div id="main">
+<h1>Star Trek</h1>
+<p>I am a fan of Star Trek.</p>
+<p>I am going to fill in this page with some more of my thoughts later.</p>
+<p><a href="./" class="index-link">Back to homepage</a></p>
+</div></body></html>
