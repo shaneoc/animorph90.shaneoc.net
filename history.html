@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Copyright 2025 Shane O'Connell -->
+<html><head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>animorph90.shaneoc.net</title>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    background: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:link {
+    color: #00ff00;
+}
+
+a:visited {
+    color: #00ff00;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: #00ff00;
+}
+
+#main {
+    width: clamp(50ch, 50%, 80ch);
+    max-width: 100%;
+}
+
+h1, h2 {
+    color: #00ff00;
+}
+
+.monospace {
+    font-family: monospace;
+    font-weight: bold;
+}
+</style>
+<script>
+if (document.location.href.startsWith('file:')) {
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const index_links = document.getElementsByClassName('index-link');
+        for (let i = 0; i < index_links.length; i++) {
+            index_links[i].href += 'index.html';
+        }
+    });
+}
+</script>
+</head><body><div id="main">
+<h1>The Original Site</h1>
+<p>I am currently in the process of writing a more detailed description for this
+page.</p>
+<p>In the meantime, there are some files in the <a href="https://shane.oconnell.cc/archive/">archive
+section</a> of my main site, which I obtained
+from the <a href="https://web.archive.org/">Internet Archive</a>:</p>
+<ul>
+<li>The last version of the page at
+<span class="monospace">animorph90.hypermart.net</span>,
+<a href="https://shane.oconnell.cc/archive/1998/animorph90.hypermart.net/index.html.info.html">which only contained a redirect
+link</a>.</li>
+<li>A file for the <a href="https://shane.oconnell.cc/archive/1998/animorph90.hypermart.net/activechannel/addactivechannel.cdf.info.html">Animorph90 Animorphs Active
+Channel</a>,
+which was <a href="https://en.wikipedia.org/wiki/Active_Channel">an Internet Explorer
+feature</a> that I was
+experimenting with at the time. It looks like I had used it to create a
+screensaver.</li>
+<li>A file for the <a href="https://shane.oconnell.cc/archive/1998/animorph90.hypermart.net/activechannel/addactivedesktop.cdf.info.html">Animorph90's Animorphs Desktop
+Component</a>.</li>
+<li>A file which was downloaded after I had moved the site to the
+<span class="monospace">ani-morphs.com</span> domain name and shows <a href="https://shane.oconnell.cc/archive/1999/ani-morphs.com/index.html.info.html">an
+example of my
+use</a>
+of the <span class="monospace">&lt;frameset&gt;</span> tag. You have to click
+the &quot;view source&quot; link to see the tag.</li>
+</ul>
+<p><a href="./" class="index-link">Back to homepage</a></p>
+</div></body></html>
