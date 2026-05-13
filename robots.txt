@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://animorph90.shaneoc.net/sitemap.xml
