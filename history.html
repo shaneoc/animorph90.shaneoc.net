@@ -81,6 +81,10 @@ if (document.location.href.startsWith('file:')) {
         for (let i = 0; i < index_links.length; i++) {
             index_links[i].href += 'index.html';
         }
+        const html_links = document.getElementsByClassName('html-link');
+        for (let i = 0; i < html_links.length; i++) {
+            html_links[i].href += '.html';
+        }
     });
 }
 </script>
@@ -89,24 +93,24 @@ if (document.location.href.startsWith('file:')) {
 <h2>Evidence</h2>
 <p>I have found some information related to the site by searching in the <a href="https://web.archive.org/">Internet
 Archive Wayback Machine</a>. I found four files that I
-wrote myself. I have now added those files to the <a href="https://shane.oconnell.cc/archive/">archive
-section</a> of my main site. The files I found
-were:</p>
+wrote myself. I have now added those files to the <a href="https://shane.oconnell.cc/archive/" class="index-link">archive
+section</a> of my main site. The
+files I found were:</p>
 <ul>
 <li>The last version of the page at
 <span class="monospace">animorph90.hypermart.net</span>,
-<a href="https://shane.oconnell.cc/archive/1998/animorph90.hypermart.net/index.html.info.html">which only contained a redirect
+<a href="https://shane.oconnell.cc/1998/animorph90.hypermart.net/index.html.info" class="html-link">which only contained a redirect
 link</a>.</li>
-<li>A file for the <a href="https://shane.oconnell.cc/archive/1998/animorph90.hypermart.net/activechannel/addactivechannel.cdf.info.html">Animorph90's Animorphs Active
+<li>A file for the <a href="https://shane.oconnell.cc/1998/animorph90.hypermart.net/activechannel/addactivechannel.cdf.info" class="html-link">Animorph90's Animorphs Active
 Channel</a>,
 which was <a href="https://en.wikipedia.org/wiki/Active_Channel">an Internet Explorer
 feature</a> that I was
 experimenting with at the time. It looks like I used it to create a
 screensaver.</li>
-<li>A file for the <a href="https://shane.oconnell.cc/archive/1998/animorph90.hypermart.net/activechannel/addactivedesktop.cdf.info.html">Animorph90's Animorphs Desktop
+<li>A file for the <a href="https://shane.oconnell.cc/1998/animorph90.hypermart.net/activechannel/addactivedesktop.cdf.info" class="html-link">Animorph90's Animorphs Desktop
 Component</a>.</li>
 <li>A file which was downloaded after I moved the site to the
-<span class="monospace">ani-morphs.com</span> domain name and shows <a href="https://shane.oconnell.cc/archive/1999/ani-morphs.com/index.html.info.html">an
+<span class="monospace">ani-morphs.com</span> domain name and shows <a href="https://shane.oconnell.cc/1999/ani-morphs.com/index.html.info" class="html-link">an
 example of my
 use</a>
 of the <span class="monospace">&lt;frameset&gt;</span> tag. You have to click the
@@ -196,7 +200,7 @@ somewhere somehow. I wonder if it is possible to get it back.</p>
 <div><strong>1997-09-29</strong></div>
 <div>
 <p>According to the
-<a href="https://shane.oconnell.cc/archive/1998/animorph90.hypermart.net/activechannel/addactivechannel.cdf.info.html">addactivechannel.cdf</a>
+<a href="https://shane.oconnell.cc/1998/animorph90.hypermart.net/activechannel/addactivechannel.cdf.info" class="html-link">addactivechannel.cdf</a>
 file, this was the date I last updated the screensaver that I made using the
 <a href="https://en.wikipedia.org/wiki/Active_Channel">Active Channel</a> technology that
 was introduced with Internet Explorer 4.</p>
@@ -215,7 +219,7 @@ was introduced with Internet Explorer 4.</p>
 </div>
 <div><strong>1998-11-11</strong></div>
 <div>
-<p>The date that the Internet Archive <a href="https://shane.oconnell.cc/archive/1998/animorph90.hypermart.net/index.html.info.txt.info.html">captured the
+<p>The date that the Internet Archive <a href="https://shane.oconnell.cc/1998/animorph90.hypermart.net/index.html.info.txt.info" class="html-link">captured the
 message</a>
 on <span class="monospace">animorph90.hypermart.net</span> which stated that
 the site was moving to <span class="monospace">ani-morphs.com</span>.</p>
@@ -265,7 +269,7 @@ created and that I did not find on a floppy disk later on.</p>
 <div><strong>2001-10-08</strong></div>
 <div>
 <p>The modification date of the oldest file that I have on my computer that is
-related to my attempt to <a href="https://shane.oconnell.cc/archive/2001/OS/Zeus-diagram.bmp.info.html">build an operating
+related to my attempt to <a href="https://shane.oconnell.cc/2001/OS/Zeus-diagram.bmp.info" class="html-link">build an operating
 system</a>.</p>
 </div>
 <div><strong>2001-10-25</strong></div>
